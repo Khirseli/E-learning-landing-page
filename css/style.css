@@ -4,11 +4,12 @@
     height: 1845px;
     margin-inline: auto;
     display: flex;
+    overflow: hidden;
     border: 2px solid red;
 }
 /* header */
 header{
-    width: 80%;
+    width: 70%;
     height: 60px;
     margin: 0 auto;
     display: flex;
@@ -30,3 +31,13 @@ header{
     font-size: 18px;
     margin-top: 18px;
 }   
+/* article */
+.rectangle{
+    width: 317px;
+    height: 1008px;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 158.5px;
+    transform: rotate(45deg);
+    position: relative;
+    top: -190.13px;
+}
