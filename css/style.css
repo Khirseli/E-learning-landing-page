@@ -21,6 +21,10 @@ header{
     border-radius: 28px;
     text-align: center;
 }
+.get_started:hover{
+    background: #666CA3;
+    cursor: pointer;
+}
 .get_started_h2{
     color: #fff;
     font-family: 'Plus Jakarta Sans';
@@ -63,6 +67,10 @@ p{
     border-radius: 28px;
     text-align: center;
     margin-top: 43px;
+}
+.explanation_get_started:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    cursor: pointer;
 }
 .explanation_get_started_h2{
     color: #fff;
@@ -133,7 +141,6 @@ h3{
 .cards{
     width: 80%;
     height: 748px;
-    border: 2px solid red;
     margin: 226px auto 0 auto;
     display: flex;
     justify-content: space-between;
@@ -152,7 +159,6 @@ h3{
 .top_cards{
     width: 32%;
     height: 322px;
-    border: 2px solid red;
     border-radius: 15px;
     margin-top: 20px;
     box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381)
@@ -203,5 +209,31 @@ h3{
     position: absolute;
     top: 395px;
 }
+/* footer */
+    footer{
+        width: 80%;
+        height: 120px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 140px;
+        background: #13183F;
+    }
+    .get_started_footer{
+        width: 167px;
+        height: 56px;
+        background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+        border-radius: 28px;
+        text-align: center;
+        margin-right: 165px;
+    }
+    .get_started_footer:hover{
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+        cursor: pointer;
+    }
+    .footer_image{
+        margin-left: 165px;
+    }
 
 
