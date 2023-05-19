@@ -137,7 +137,18 @@ h3{
     margin: 226px auto 0 auto;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    flex-direction: column;
 }
+.first_three_card{
+    display: flex;
+    justify-content: space-between;
+}
+.second_three_card{
+    display: flex;
+    justify-content: space-between;
+}
+
 .top_cards{
     width: 32%;
     height: 322px;
@@ -160,11 +171,37 @@ h3{
     margin-top: 64px;
 }
 .small_svgs{
-    top: 300px;
-    z-index: 3;
     margin-left: 32px;
+    position: absolute;
+    top: -8px;
 }
-.top_cards{
+.title{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 24px;
+    color: #13183F;
+    margin: 64px 0 0 32px;
+}
+.card_text{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    margin: 24px 0 0 32px;
+}
+.cards_get_started{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 18px;
+    color: #F74780;
+    margin: 24px 0 0 32px;
+}
+.small_svgs2{
+    margin-left: 32px;
+    position: absolute;
+    top: 395px;
+}
 
-}
 
