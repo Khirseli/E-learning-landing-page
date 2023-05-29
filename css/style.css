@@ -14,6 +14,13 @@ header{
     justify-content: space-between;
     margin-top: 24px;
 }
+.skilled_header_p{
+    display: none;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 28px;
+    color: #13183F;
+}
 .get_started{
     width: 167px;
     height: 56px;
@@ -235,5 +242,96 @@ h3{
     .footer_image{
         margin-left: 165px;
     }
-
+@media (max-width: 1230px){
+    header{
+        width: 90%;
+    }
+    article{
+        width: 90%;
+    }
+    .cards{
+        width: 90%;
+    }
+    footer{
+        width: 90%;
+    }
+    .girls_image{
+    left: 1%;
+    }
+    .rectangle{
+    width: 250px;
+    top: -285.13px;
+    left: 260px;
+    }
+    .members{
+    left: 260px;
+    }
+    .course_hours{
+    top: 300px;
+    left: -100px;
+    }
+}
+@media (max-width: 1020px){
+    .members{
+    width: 105px;
+    height: 100px;
+    top: 60px;
+    left: 260px;
+}
+h3{
+    font-size: 14px;
+}
+.numbers{
+    font-size: 32px;
+}
+.course_hours{
+    width: 155px;
+    height: 100px;
+}
+.footer_image{
+    margin-left: 40px;
+}
+.get_started_footer{
+    margin-right: 40px;
+}
+}
+@media (max-width: 900px){
+.girls_image{
+    width: 216.54px;
+    height: 382.53px;
+    left: 17%;
+    bottom: 35%;
+}
+.rectangle{
+    width: 200px;
+    top: -475.13px;
+    left: 310px;
+    }
+    .members{
+    width: 105px;
+    height: 100px;
+    top: -50px;
+    left: 210px;
+    }
+    .course_hours{
+    top: 260px;
+    left: 10px;
+    }
+    .explanation{
+    width: 50%;
+    height: 100%;
+    margin-top: 0px;
+    }
+    .explanation_h2{
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .cards{
+        margin-top: 100px;
+    }
+    .container{
+        height: 1700px;
+    }
+}
 
