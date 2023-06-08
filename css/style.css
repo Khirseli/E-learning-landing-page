@@ -383,15 +383,15 @@ h3{
     .picture{
         display: none;
     }
-}
-.explanation{
-    width: 100%;
-    margin: 0 auto;
-    border: 2px solid red;
-    text-align: center;
-}
-.explanation_get_started{
-    margin: 70px auto 0 auto;
+    .explanation{
+        width: 100%;
+        margin: 0 auto;
+        border: 2px solid red;
+        text-align: center;
+    }
+    .explanation_get_started{
+        margin: 70px auto 0 auto;
+    }
 }
 @media (max-width: 585px){
     .cards{
